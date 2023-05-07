@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(1, 11, 34);
+    color: white;
+    font-family: 'Teko', Verdana, Tahoma, sans-serif, sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 2.75rem;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+}
+
+
+img {
+    width: 100%;
+}
+
+/*11:06*/
