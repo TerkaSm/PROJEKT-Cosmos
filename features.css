@@ -1,0 +1,48 @@
+.feature {
+    margin: 4rem 0;
+}
+
+.feature h2 {
+    color: #c7fd04;
+    text-shadow: 2px 2px 0 black;
+}
+
+.feature .content {
+    position: relative;
+    bottom: 2rem;
+}
+
+/* responzive */
+
+@media screen and (min-width:810px) {
+    .feature {
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+
+        margin: 10rem 0;
+        padding: 1rem 0;
+
+        border-right: 0.75rem solid #c7fd04;
+    }
+
+    .feature:nth-child(even) {
+        flex-direction: row-reverse;
+        border-left: 0.75rem solid #c7fd04;
+        border-right: 0;
+    }
+
+    .feature figure {
+        flex: 7;
+    }
+
+    .feature .content {
+        flex: 3;
+        position: static;
+        padding: 0 2rem;
+    }
+}
+
+
+
+/*50:09 css not selector*/
