@@ -1,0 +1,22 @@
+main::before {
+    content: '';
+
+    background-image: 
+        linear-gradient(319deg, #010b22 16px, transparent 17px),
+        linear-gradient(39deg, #000 16px, transparent 17px);
+
+    background-size: 48px 23px;
+    background-repeat: repeat-x;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    top: -23px;
+}
+
+
+
+/* 1:14:39 kod na zubate sekce

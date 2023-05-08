@@ -1,5 +1,13 @@
+main {
+    background-color: black;
+    padding: 1rem 0;
+    max-width: 1040px;
+    margin: 4rem auto;
+    position: relative;
+}
+
 .feature {
-    margin: 4rem 0;
+    margin-bottom: 4rem 0;
 }
 
 .feature h2 {
@@ -15,12 +23,17 @@
 /* responzive */
 
 @media screen and (min-width:810px) {
+
+    main {
+        padding: 10rem 0;
+    }
+
     .feature {
         display: flex;
         align-items: center;
         gap: 3vw;
 
-        margin: 10rem 0;
+        margin-bottom: 4rem 0;
         padding: 1rem 0;
 
         border-right: 0.75rem solid #c7fd04;
