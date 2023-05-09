@@ -1,8 +1,7 @@
 body {
-    background-color: rgb(1, 11, 34);
+    background-color: #000;
     color: white;
     font-family: 'Teko', Verdana, Tahoma, sans-serif, sans-serif;
-    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -15,10 +14,13 @@ h1, h2, h3 {
 
 h2 {
     font-size: clamp(1.75rem, 8vw, 3.5rem);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
     font-size: clamp(1.75rem, 10vw, 4.5rem);
+    text-shadow: 2px 2px  black;
 }
 
 p {
@@ -27,6 +29,18 @@ p {
     margin: 1rem 0 0;
 }
 
+.menu {
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
 
 img {
     width: 100%;

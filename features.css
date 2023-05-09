@@ -1,13 +1,12 @@
 main {
-    background-color: black;
-    padding: 1rem 0;
+    background-color: #010b22;  /*#010b22*/
     max-width: 1040px;
     margin: 4rem auto;
     position: relative;
 }
 
 .feature {
-    margin-bottom: 4rem 0;
+    margin-bottom: 1rem ;
 }
 
 .feature h2 {
@@ -25,7 +24,9 @@ main {
 @media screen and (min-width:810px) {
 
     main {
-        padding: 10rem 0;
+        padding: 4rem;
+        padding-bottom: 1px;
+        margin-bottom: 0;
     }
 
     .feature {
@@ -33,7 +34,7 @@ main {
         align-items: center;
         gap: 3vw;
 
-        margin-bottom: 4rem 0;
+        margin-bottom: 4rem;
         padding: 1rem 0;
 
         border-right: 0.75rem solid #c7fd04;

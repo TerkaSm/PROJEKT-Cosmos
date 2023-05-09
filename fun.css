@@ -1,8 +1,11 @@
+/* *** zubatý gradient ***
+
+
 main::before {
     content: '';
 
     background-image: 
-        linear-gradient(319deg, #010b22 16px, transparent 17px),
+        linear-gradient(319deg, #000 16px, transparent 17px),
         linear-gradient(39deg, #000 16px, transparent 17px);
 
     background-size: 48px 23px;
@@ -17,6 +20,10 @@ main::before {
     top: -23px;
 }
 
+*/
 
+/* 1:14:39 kod na zubate sekce*/
 
-/* 1:14:39 kod na zubate sekce
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
