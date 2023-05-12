@@ -1,10 +1,11 @@
 header {
     min-height: 70vh;
-    max-width: 100%;
+    max-width: 1040px;
     margin: 0 auto;
     background-image: url(images/nathan-anderson-kujXUuh1X0o-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1200px;
+    background-attachment: fixed;*/
 }
 
 .main-nav {
@@ -14,25 +15,31 @@ header {
     left: 0;
     top: 0;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.588);
+    background: rgba(0, 0, 0, 0.486);
 }
 
 
 .main-nav .menu {
-    font-size: 2.75rem;
+    font-size: clamp(1.75rem, 8vw, 2.75rem);
     line-height: 0.8;
     margin: 0 auto;
     display: flex;
-    gap: 2rem;
+    gap: clamp(1.2rem, 5vw, 2rem);
     max-width: 1040px;
-    padding-left: 4rem;
+    padding: 0 clamp(0.5rem, 3vw, 1rem);
+}
+
+
+.main-nav li:last-of-type {
+    margin-left: auto;
 }
 
 .main-nav a {
     color: white;
+    text-shadow: 2px 2px 10px black;
     display: block;
     padding-top: 1rem;
     padding-bottom: 0.55rem;
 }
 
-/* 1:27 last */
+/* 1:53 last */

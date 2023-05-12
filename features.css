@@ -1,7 +1,7 @@
 main {
     background-color: #010b22;  /*#010b22*/
     max-width: 1040px;
-    margin: 4rem auto;
+    margin: 0 auto 4rem auto;
     position: relative;
 }
 

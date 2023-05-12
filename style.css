@@ -1,3 +1,16 @@
+html {
+    font-size: 100;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10.25rem;
+
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+
 body {
     background-color: #000;
     color: white;
@@ -29,6 +42,10 @@ p {
     margin: 1rem 0 0;
 }
 
+ul {
+    padding-left: 0;
+}
+
 .menu {
     margin: 0;
     padding-left: 0;
@@ -51,11 +68,8 @@ figure {
 }
 
 .container {
-    padding: 0 1.25rem;
-    max-width: 1170px;
+    padding: 1rem 1.25rem;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
-
-
-/*11:06*/
