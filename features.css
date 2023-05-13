@@ -1,5 +1,6 @@
 main {
     background-color: #010b22;  /*#010b22*/
+    background-image: url(images/alexander-andrews--Bq3TeSBRdE-unsplash.jpg);
     max-width: 1040px;
     margin: 0 auto 4rem auto;
     position: relative;
@@ -55,6 +56,10 @@ main {
         position: static;
         padding: 0 2rem;
     }
+}
+
+#about {
+    visibility: hidden;
 }
 
 

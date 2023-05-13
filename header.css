@@ -4,8 +4,9 @@ header {
     margin: 0 auto;
     background-image: url(images/nathan-anderson-kujXUuh1X0o-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: 1200px;
-    background-attachment: fixed;*/
+    background-size: 1280px;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .main-nav {
@@ -40,6 +41,15 @@ header {
     display: block;
     padding-top: 1rem;
     padding-bottom: 0.55rem;
+}
+
+.main-h {
+    position: absolute;
+    top: 10rem;
+    left: clamp(1rem, 8vw, 4rem);
+    font-size: clamp(3rem, 9vw, 6rem);
+    color: rgba(255, 255, 255, 0.462);
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.195);
 }
 
 /* 1:53 last */

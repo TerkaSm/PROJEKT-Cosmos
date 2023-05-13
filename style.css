@@ -26,13 +26,13 @@ h1, h2, h3 {
 
 
 h2 {
-    font-size: clamp(1.75rem, 8vw, 3.5rem);
+    font-size: clamp(2rem, 8vw, 3.5rem);
     letter-spacing: 1px;
     text-shadow: 2px 2px black;
 }
 
 h3 {
-    font-size: clamp(1.75rem, 10vw, 4.5rem);
+    font-size: clamp(2.7rem, 10vw, 4.5rem);
     text-shadow: 2px 2px  black;
 }
 
@@ -72,4 +72,6 @@ figure {
     max-width: 1040px;
     margin: 0 auto;
 }
+
+/* 2:02 last */
 
