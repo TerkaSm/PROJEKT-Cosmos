@@ -18,7 +18,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 0;
     line-height: 0.8;
     letter-spacing: 1px;
@@ -36,6 +36,13 @@ h3 {
     text-shadow: 2px 2px  black;
 }
 
+h4 {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 2.5rem;
+    padding-bottom: 0.35rem;
+}
+
 p {
     font-family: Tahoma, Verdana, sans-serif;
     font-size: 1.25rem;
@@ -51,12 +58,13 @@ ul {
     padding-left: 0;
 }
 
-.menu li {
+li {
     list-style: none;
 }
 
-.menu a {
+a {
     text-decoration: none;
+    color: white;
 }
 
 img {
@@ -71,6 +79,19 @@ figure {
     padding: 1rem 1.25rem;
     max-width: 1040px;
     margin: 0 auto;
+}
+
+input, 
+button {
+    all: unset;
+    color: #000;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* 2:02 last */
